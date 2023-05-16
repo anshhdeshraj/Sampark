@@ -1,6 +1,6 @@
 //MONGODB DATABASE SETUP
 const mongoose = require('mongoose');
-const MONGODB_URI = 'mongodb+srv://ansh1515:ansh2783@cluster0.j8btg.mongodb.net/authSystem?retryWrites=true&w=majority';
+const MONGODB_URI = 'YOUR_MONGODB_STRING';
 
 mongoose.connect(MONGODB_URI, {
     useNewUrlParser : true,
